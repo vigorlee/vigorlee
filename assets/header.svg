@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Mingyi Li — Memory, reasoning, motion</title>
+<desc id="desc">Embodied AI researcher at Beijing Institute of Technology. Animated signals connect perception, memory, reasoning and action.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1424"/><stop offset="1" stop-color="#102b3a"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8bd8f4" stroke-opacity=".055"/></pattern>
+<style>
+text{font-family:Inter,Segoe UI,Arial,sans-serif}.signal{stroke-dasharray:10 14;animation:flow 5s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}.p2{animation-delay:1s}.p3{animation-delay:2s}@keyframes flow{to{stroke-dashoffset:-144}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.signal,.pulse{animation:none}}
+</style>
+</defs>
+<rect width="1200" height="390" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="390" rx="22" fill="url(#grid)"/>
+<path d="M44 40H100" stroke="#5eead4" stroke-width="3"/>
+<text x="116" y="46" fill="#8fadc4" font-size="14" letter-spacing="3">VIGORLEE / EMBODIED INTELLIGENCE</text>
+<text x="44" y="139" fill="#f0f7fc" font-size="66" font-weight="700" letter-spacing="-2">Mingyi Li</text>
+<text x="46" y="190" fill="#5eead4" font-size="29" font-weight="500">Memory. Reasoning. Motion.</text>
+<text x="46" y="238" fill="#b4c9da" font-size="18">Building systems that connect perception to robot decisions.</text>
+<text x="46" y="270" fill="#8fadc4" font-size="16">Beijing Institute of Technology</text>
+<g fill="none" stroke="#31546c" stroke-width="2"><path d="M785 100H1050V265H785Z"/><path d="M785 100L1050 265M1050 100L785 265"/></g>
+<path class="signal" d="M785 100H1050V265H785V100" fill="none" stroke="url(#line)" stroke-width="3"/>
+<g fill="#102536" stroke="#56cfcf" stroke-width="1.5"><circle cx="785" cy="100" r="29"/><circle cx="1050" cy="100" r="29"/><circle cx="1050" cy="265" r="29"/><circle cx="785" cy="265" r="29"/></g>
+<g fill="#5eead4"><circle class="pulse" cx="785" cy="100" r="8"/><circle class="pulse p2" cx="1050" cy="100" r="8"/><circle class="pulse p3" cx="1050" cy="265" r="8"/><circle class="pulse p2" cx="785" cy="265" r="8"/></g>
+<g fill="#c4d9e8" font-size="13" text-anchor="middle" letter-spacing="1.4"><text x="785" y="151">PERCEPTION</text><text x="1050" y="151">MEMORY</text><text x="1050" y="316">REASONING</text><text x="785" y="316">ACTION</text></g>
+<circle cx="918" cy="183" r="31" fill="#143745" stroke="#27556a"/><text x="918" y="188" fill="#bdf5ed" font-size="12" text-anchor="middle" letter-spacing="1.5">EMBODIED</text>
+<path d="M44 313H632" stroke="#254255"/>
+<text x="46" y="350" fill="#9db9cb" font-size="13" letter-spacing="1.7">MULTIMODAL RAG  /  WORLD MODELS  /  ROBOT NAVIGATION</text>
+</svg>
