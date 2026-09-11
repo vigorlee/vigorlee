@@ -1,0 +1,103 @@
+{
+  "total_stars": 130,
+  "public_repositories": 19,
+  "updated_at": "2026-09-11 03:56 UTC",
+  "scope": "Current stars on all public repositories owned by vigorlee, including forks; not historical lifetime stars.",
+  "repositories": [
+    {
+      "name": "Multimodal--RAG",
+      "stars": 101,
+      "fork": false
+    },
+    {
+      "name": "wave-go",
+      "stars": 14,
+      "fork": false
+    },
+    {
+      "name": "eidra-agent",
+      "stars": 12,
+      "fork": false
+    },
+    {
+      "name": "RoboKino",
+      "stars": 3,
+      "fork": false
+    },
+    {
+      "name": "EasyPlayer-RTSP-Android",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "FaceCheck",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "GR00T-WholeBodyControl",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "ImageNet",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "NeuPAN",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "RoboFinals",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "Room",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "SmarterStreaming",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "TensorFlow2.0-Examples",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "academicpages.github.io",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "fast-reid",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "lightwheel-kitchen-isaacsim-repro",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "matplotlib-cn",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "robofinals-factory-dataset",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "vigorlee",
+      "stars": 0,
+      "fork": false
+    }
+  ]
+}

@@ -12,6 +12,21 @@
 
 </div>
 
+## Open-source impact
+
+<a href="https://github.com/vigorlee?tab=repositories&amp;sort=stargazers"><img src="assets/stars.svg" width="100%" alt="Automatically generated total received stars, public repository count, and star distribution"></a>
+
+<details>
+<summary><b>★ 打开 Star 统计说明 / Inspect the numbers</b></summary>
+
+累计 Star 指我拥有的全部公开仓库**当前收到的 Star 之和**（含 fork 仓库自身收到的 Star），不是我收藏的仓库数，也不是历史上收到过的 Star 次数。取消 Star 后，总数也会减少。
+
+卡片展示最近一次完整分页读取 GitHub API 的快照，并显示实际采集时间；自动任务尚待安装。上方 TOTAL STARS 徽章会独立自动更新，图片缓存可能造成延迟，两处数字也可能暂时不同。
+
+[查看逐仓库数据](assets/stars.json) · [查看更新脚本](scripts/update_stats.py) · [直接查看 GitHub API](https://api.github.com/users/vigorlee/repos?type=owner&per_page=100)
+
+</details>
+
 I build embodied AI systems that connect **multimodal perception → structured memory → grounded decisions → robot execution**. I am with **Beijing Institute of Technology**, working on multimodal retrieval, world-model-assisted autonomy and reproducible robotics.
 
 ## Selected work
@@ -41,7 +56,14 @@ I build embodied AI systems that connect **multimodal perception → structured 
 
 ## Explore
 
-**Choose a direction — click to open. / 点击展开，探索我的研究方向。**
+**What would you like to explore? / 选择一个问题，点击展开。**
+
+| 🧠 Memory | 🦿 Motion | 🧪 Agents & simulation |
+| :--- | :--- | :--- |
+| How does a robot remember? | How does a decision become action? | How can we inspect the evidence? |
+| 感知如何成为可检索的记忆 | 决策如何变成可靠的动作 | 智能体与仿真如何复现 |
+
+打开下方问题，查看研究思路和对应项目；项目卡片可直接点击进入代码仓库。
 
 <details>
 <summary><b>01 · How can a robot remember what it sees? / 感知与记忆</b></summary>
