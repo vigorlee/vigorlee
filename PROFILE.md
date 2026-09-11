@@ -2,8 +2,8 @@
 
 This repository powers the public profile at [github.com/vigorlee](https://github.com/vigorlee).
 
-- `assets/header.svg`: a lightweight animated perception–memory–reasoning–action loop. It respects `prefers-reduced-motion` and remains readable without animation.
-- Project cards link to their corresponding repositories; the native `<details>` sections open and close on click or keyboard activation.
+- The profile uses a text-first academic layout: affiliation, research interests, and selected projects. Native `<details>` sections provide optional system descriptions and experimental materials.
+- Decorative banners, animated graphics, project cards, and the large star dashboard are not displayed. Existing assets and the snapshot script are retained as repository resources.
 - Total Stars uses `https://img.shields.io/github/stars/vigorlee?affiliations=OWNER`. The number is fetched by Shields from GitHub; it is not written into this repository.
 - Shields currently sums the top 200 repositories by stars; all 19 public repositories at setup are covered. [Service implementation](https://github.com/badges/shields/blob/master/services/github/github-total-star.service.js).
 - The scope is stars **received by repositories owned by vigorlee**, not the account's starred-repository list. Repository-specific star badges update independently.
@@ -12,6 +12,6 @@ This repository powers the public profile at [github.com/vigorlee](https://githu
 - The hourly workflow is not installed: the publishing OAuth token lacks the `workflow` scope. Until installed, the dashboard is a timestamped snapshot; run `python scripts/update_stats.py` to refresh it manually. The independent Shields badge updates automatically. An hourly workflow file was delivered separately.
 - The top four starred repositories are shown as shares of the total; repositories with no stars still count toward the public repository count.
 - Failed API requests stop generation before either output is written, preserving the last successful snapshot. Credentials are supplied only through the Actions token; none are embedded in public files.
-- The README adds an expandable statistics inspector with raw snapshot, workflow history, and API links. GitHub-native details sections are keyboard accessible; SVG animation is decorative rather than mouse interaction.
+- The cumulative star badge appears at the bottom in neutral gray. GitHub-native details sections retain keyboard-accessible interaction without decorative animation.
 
-All research descriptions are based on the existing profile and public repositories. The WAVE-Go image links to a fixed, verified result commit so later README changes do not silently replace the illustrated experiment.
+All research descriptions are based on the existing profile and public repositories. The WAVE-Go simulation overview links to a fixed result commit so later README changes do not silently replace the referenced experiment.
